@@ -822,15 +822,14 @@ td {
   -o-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  font-size: 0;
 }
-
-.no-webp .certificates__btn-left{
-  background: url(../img/arrow.png) center center no-repeat; }
 
 .certificates__btn-left {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
+  background: url(../img/arrow.svg) center center no-repeat;
 }
 
 .certificates__btn-left:hover {
@@ -839,13 +838,11 @@ td {
           transform: scale(1.1) rotate(90deg);
 }
 
-.no-webp .certificates__btn-rigth{
-  background: url(../img/arrow.png) center center no-repeat; }
-
 .certificates__btn-rigth {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
+  background: url(../img/arrow.svg) center center no-repeat;
 }
 
 .certificates__btn-rigth:hover {
@@ -986,15 +983,14 @@ td {
   -o-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  font-size: 0;
 }
-
-.no-webp .reviews__btn-left{
-  background: url(../img/arrow.png) center center no-repeat; }
 
 .reviews__btn-left {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
+  background: url(../img/arrow.svg) center center no-repeat;
 }
 
 .reviews__btn-left:hover {
@@ -1003,13 +999,11 @@ td {
           transform: scale(1.1) rotate(90deg);
 }
 
-.no-webp .reviews__btn-rigth{
-  background: url(../img/arrow.png) center center no-repeat; }
-
 .reviews__btn-rigth {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
+  background: url(../img/arrow.svg) center center no-repeat;
 }
 
 .reviews__btn-rigth:hover {
@@ -1183,7 +1177,7 @@ td {
 .footer__img {
   margin-bottom: 17px;
   width: 100%;
-  height: auto;
+  height: 45px;
 }
 
 .footer__center {
@@ -1302,11 +1296,3 @@ td {
 }
 
 .webp .arrow{ background-image: url(../img/arrow.webp); }
-
-.webp .certificates__btn-left{ background: url(../img/arrow.webp) center center no-repeat; }
-
-.webp .certificates__btn-rigth{ background: url(../img/arrow.webp) center center no-repeat; }
-
-.webp .reviews__btn-left{ background: url(../img/arrow.webp) center center no-repeat; }
-
-.webp .reviews__btn-rigth{ background: url(../img/arrow.webp) center center no-repeat; }
